@@ -19,5 +19,13 @@ namespace Assuncao.School.Business.Models
         public int PhoneStudent { get; set; }
         public string Situation { get; set; }
         public string StudentCPF { get; set; }
+
+
+
+        // Entity Framework
+        public GradeClass GradeClass { get; set; }
+        public Address Address { get; set; }
+        public IEnumerable<Subject> Subjects { get; set; }
+
     }
 }

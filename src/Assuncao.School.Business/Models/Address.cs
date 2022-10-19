@@ -8,7 +8,6 @@ namespace Assuncao.School.Business.Models
 {
     public class Address : Entity
     {
-        public Student StudentId { get; set; }
         public string Logradouro { get; set; }
         public string Number { get; set; }
         public string Complement { get; set; }
@@ -16,9 +15,6 @@ namespace Assuncao.School.Business.Models
         public string District { get; set; }
         public string City { get; set; }
         public string Estate { get; set; }
-
-        public Student Student { get; set; }
-
-        public List<Grade> Grades { get; set; } = new List<Grade>();
+        public string UF { get; set; }
     }
 }
