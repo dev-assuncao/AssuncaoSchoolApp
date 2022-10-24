@@ -13,5 +13,6 @@ namespace Assuncao.School.Business.Models
         public string UserName { get; set; }
         public UserType UserType { get; set; }
         protected string UserPassword { get; set; }
+        public bool Active { get; set; }
     }
 }
