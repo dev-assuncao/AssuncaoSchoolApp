@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assuncao.School.Business.Models
 {
-    public class School : Entity
+    public class SchoolPlace : Entity
     {
         public string SchoolName { get; set; }      
         public string CompetentAuthority { get; set; }

@@ -3,11 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assuncao.School.Data", "..\src\Assuncao.School.Data\Assuncao.School.Data.csproj", "{1CEBFE46-7FCD-499D-B939-638076F36026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assuncao.School.Data", "..\src\Assuncao.School.Data\Assuncao.School.Data.csproj", "{1CEBFE46-7FCD-499D-B939-638076F36026}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6840CAD9-148C-45D7-BB07-AED9B647D286} = {6840CAD9-148C-45D7-BB07-AED9B647D286}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assuncao.School.Business", "..\src\Assuncao.School.Business\Assuncao.School.Business.csproj", "{6840CAD9-148C-45D7-BB07-AED9B647D286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assuncao.School.Business", "..\src\Assuncao.School.Business\Assuncao.School.Business.csproj", "{6840CAD9-148C-45D7-BB07-AED9B647D286}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assuncao.School.App", "..\src\Assuncao.School.App\Assuncao.School.App.csproj", "{BB24DECE-8E02-4E3E-BF91-C4E6A51449C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assuncao.School.App", "..\src\Assuncao.School.App\Assuncao.School.App.csproj", "{BB24DECE-8E02-4E3E-BF91-C4E6A51449C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
