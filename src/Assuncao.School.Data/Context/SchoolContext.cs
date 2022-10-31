@@ -15,14 +15,14 @@ namespace Assuncao.School.Data.Context
         {         
         }
 
-        DbSet<Address> Addresses { get; set; }
-        DbSet<GradeClass> GradeClasses { get; set; }
-        DbSet<Professor> Professors { get; set; }
-        DbSet<Record> Record { get; set; }
-        DbSet<SchoolPlace> Schools { get; set; }
-        DbSet<Student> Students { get; set; }
-        DbSet<Subject> Subjects { get; set; }
-        DbSet<User> Users { get; set; }
+        public DbSet<Address> Addresses { get; set; }
+        public DbSet<GradeClass> GradeClasses { get; set; }
+        public DbSet<Professor> Professors { get; set; }
+        public DbSet<Record> Record { get; set; }
+        public DbSet<SchoolPlace> Schools { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Subject> Subjects { get; set; }
+        public DbSet<User> Users { get; set; }
         
     }
 }

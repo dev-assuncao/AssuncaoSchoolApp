@@ -9,8 +9,8 @@ namespace Assuncao.School.Data.Repository
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
 
-        public readonly SchoolContext schoolContext;
-        public readonly DbSet<TEntity> Dbset;
+        protected readonly SchoolContext schoolContext;
+        protected readonly DbSet<TEntity> Dbset;
 
 
         public Repository(SchoolContext context)

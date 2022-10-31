@@ -9,6 +9,5 @@ namespace Assuncao.School.Business.Interfaces
 {
     public interface IStudentRepository : IRepository<Student>
     {
-        Task<Student> ObterAlunoNota(Guid id);
     }
 }
