@@ -9,6 +9,7 @@ namespace Assuncao.School.Business.Interfaces
 {
     public interface IUserRepository : IRepository<User>
     {
-        Task<IEnumerable<User>> ObterUsersPorTipo();
+        //Task<IEnumerable<User>> ObterUsersPorTipo();
+        Task<User> ObterEnderecoUsuario(Guid userId);
     }
 }

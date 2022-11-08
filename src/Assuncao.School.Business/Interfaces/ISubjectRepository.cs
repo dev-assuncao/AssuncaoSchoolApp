@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Assuncao.School.Business.Interfaces
 {
     public interface ISubjectRepository : IRepository<Subject>
-    {
+    { 
         Task<Subject> ObterAlunoNota(Guid studentId);
         Task<IEnumerable<Subject>> ObterAlunosRetidos();
     }

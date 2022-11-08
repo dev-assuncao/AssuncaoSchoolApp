@@ -10,7 +10,7 @@
 
 
         // Entity Framework
-        public IEnumerable<GradeClass> GradeClasses { get; set; }
         public User User { get; set; }
+        public IEnumerable<GradeClass> GradeClasses { get; set; }       
     }
 }

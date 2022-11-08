@@ -8,6 +8,7 @@ namespace Assuncao.School.Business.Models
 {
     public class Address : Entity
     {
+        public User UserId { get; set; }
         public string Logradouro { get; set; }
         public string Number { get; set; }
         public string Complement { get; set; }
@@ -16,5 +17,6 @@ namespace Assuncao.School.Business.Models
         public string City { get; set; }
         public string Estate { get; set; }
         public string UF { get; set; }
+        public User User { get; set; }
     }
 }

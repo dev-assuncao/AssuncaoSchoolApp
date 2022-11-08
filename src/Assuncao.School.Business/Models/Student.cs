@@ -9,6 +9,7 @@ namespace Assuncao.School.Business.Models
 {
     public class Student : Entity
     {
+        public User UserID { get; set; }
         public int IdInepStudent { get; set; }
         public string StudentName { get; set; }
         public DateTime BirthDay { get; set; }
@@ -24,7 +25,7 @@ namespace Assuncao.School.Business.Models
 
         // Entity Framework
         public GradeClass GradeClass { get; set; }
-        public Address Address { get; set; }
+        public User User { get; set; }
         public IEnumerable<Subject> Subjects { get; set; }
 
     }

@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 namespace Assuncao.School.Business.Interfaces
 {
     public interface IAddressRepository : IRepository<Address>
-    {
-        Task<Address> ObterEnderecoUsuario(Guid userId);
+    {       
     }
 }

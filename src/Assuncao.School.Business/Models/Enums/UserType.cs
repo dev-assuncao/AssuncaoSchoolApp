@@ -4,6 +4,7 @@
     {
         Administrator = 1,
         Professor,
-        Secretary
+        Secretary,
+        Student
     }
 }

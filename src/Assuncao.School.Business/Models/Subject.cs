@@ -13,6 +13,8 @@ namespace Assuncao.School.Business.Models
         public string SubjectName { get; set; }
         public Record Record { get; set; }
         public Professor Professor { get; set; }
+
+        //Entity Framework
         public Student Student { get; set; }
     }
 }
